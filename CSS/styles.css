@@ -1,12 +1,49 @@
 body {
   font-family: 'Open Sans', sans-serif;
-}
-
-.portlandcashbuyers {
-  text-align: center;
+  /*background-image: url("../IMAGES/background.png");*/
 }
 
 h1 {
   font-size: 5vw;
+}
 
+.headerlogo {
+  margin-top: 10%;
+}
+
+img {
+  max-width: 90%;
+}
+
+.PORTLANDCASHBUYERS {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4%;
+  margin-top: 6%;
+}
+
+.allicons {
+  margin-top: 10%;
+  min-width: 100%;
+  text-align: center;
+}
+
+.icon {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.19), 0 1px 1px rgba(0,0,0,0.23);
+  /*margin-right: 10px;*/
+  margin-top: 20px;
+}
+
+@media only screen and (min-width:425px) and (max-width:768px) {
+   .icon {
+     max-width: 50%;
+     margin-top: 20px;
+     margin-left: 50px;
+   }
+}
+
+@media (min-width:768px) {
+  .row {
+    margin-top: 30%;
+  }
 }
